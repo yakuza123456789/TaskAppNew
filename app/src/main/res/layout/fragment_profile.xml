@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/editName"
             android:textAlignment="center"
-            android:text="#talgarOsmonov"
+            android:text="Mr. Leo"
             android:textColor="@color/colorWhite"
             android:textStyle="normal"
             android:textSize="15sp" />
