@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_navigation"
+    app:startDestination="@id/navigation_fragment_photos">
+
+    <fragment
+        android:id="@+id/navigation_fragment_plans"
+        android:name="com.example.taskapp.profileFragments.ProFragmentPlans"
+        tools:layout="@layout/fragment_pro_plans" />
+    <fragment
+        android:id="@+id/navigation_fragment_videos"
+        android:name="com.example.taskapp.profileFragments.ProfileFragmentVideos"
+        tools:layout="@layout/fragment_profile_videos" />
+    <fragment
+        android:id="@+id/navigation_fragment_photos"
+        android:name="com.example.taskapp.profileFragments.ProfileFragmentPhotos"
+        tools:layout="@layout/fragment_profile_photos" />
+</navigation>
